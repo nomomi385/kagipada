@@ -7,7 +7,7 @@
 <meta name="description" content="黒島のタマヌオイルと石垣の月桃からつくられた、まるちばぁむ「あみぬふふぁ」とひやけどめ「てぃだぬふふぁ」。宮古島よりお届けします。">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@500;700;900&family=Klee+One:wght@400;600&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@500;700;900&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
 /* ── セルフホストフォント（fonts/ に配置済み） ── */
 @font-face{
@@ -41,10 +41,10 @@
   --paper:#FFFFFF;
   --ink:#1B263B;
   --ink-soft:#989DA7;
-  --hand:"Hinata","筑紫A丸ゴシック","Tsukushi A Round Gothic","Klee One","Zen Maru Gothic",-apple-system,BlinkMacSystemFont,"Hiragino Maru Gothic ProN",sans-serif;
-  --kanata:"Kanata","筑紫A丸ゴシック","Tsukushi A Round Gothic","Klee One","Zen Maru Gothic",-apple-system,BlinkMacSystemFont,"Hiragino Maru Gothic ProN",sans-serif;
-  --maru:"筑紫A丸ゴシック","Tsukushi A Round Gothic","Zen Maru Gothic",-apple-system,BlinkMacSystemFont,"Hiragino Maru Gothic ProN",sans-serif;
-  --gothic:"Yasashisa Gothic","筑紫A丸ゴシック","Tsukushi A Round Gothic","Yu Gothic Medium","Yu Gothic",YuGothic,"Hiragino Kaku Gothic ProN","Noto Sans JP",Meiryo,sans-serif;
+  --hand:"Hinata","Zen Maru Gothic",-apple-system,BlinkMacSystemFont,"Hiragino Maru Gothic ProN",sans-serif;
+  --kanata:"Kanata","Zen Maru Gothic",-apple-system,BlinkMacSystemFont,"Hiragino Maru Gothic ProN",sans-serif;
+  --maru:"Zen Maru Gothic",-apple-system,BlinkMacSystemFont,"Hiragino Maru Gothic ProN",sans-serif;
+  --gothic:"Yasashisa Gothic","Yu Gothic Medium","Yu Gothic",YuGothic,"Hiragino Kaku Gothic ProN","Noto Sans JP",Meiryo,sans-serif;
 }
 *{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
@@ -107,15 +107,15 @@ a{color:inherit}
 .tag{font-family:var(--gothic);font-size:11px;font-weight:700;letter-spacing:.3em;
   color:var(--leaf-deep);margin-bottom:20px}
 .sec-deep .tag{color:#73D6EA}
-h2{font-family:var(--kanata);font-weight:600;line-height:1.6;letter-spacing:.06em;
+h2{font-family:var(--kanata);font-weight:500;line-height:1.6;letter-spacing:.06em;
   font-size:clamp(23px,3.6vw,33px);margin-bottom:34px;text-wrap:balance}
 .nowrap-inline{display:inline-block;white-space:nowrap}
 .okuri{font-size:.82em}
-h3{font-family:var(--maru);font-weight:600;font-size:clamp(18px,2.4vw,22px);
+h3{font-family:var(--maru);font-weight:700;font-size:clamp(18px,2.4vw,22px);
   line-height:1.7;margin-bottom:18px;letter-spacing:.05em}
 p+p{margin-top:1.5em}
 .big{font-family:var(--maru);font-size:clamp(18px,2.7vw,24px);line-height:2;
-  font-weight:600;letter-spacing:.05em}
+  font-weight:700;letter-spacing:.05em}
 
 /* ── 署名要素：名前の分解組版 ── */
 .names{width:min(920px,90vw);margin-inline:auto;display:grid;grid-template-columns:1fr 1fr;
@@ -140,14 +140,14 @@ p+p{margin-top:1.5em}
 .sun .morph b{color:var(--leaf-deep)}
 .sun .morph i{color:var(--leaf-deep)}
 .morph.link b{opacity:.32;font-size:clamp(20px,3.4vw,30px)}
-.name-role{font-family:var(--maru);font-size:17px;font-weight:600;margin-top:26px}
+.name-role{font-family:var(--maru);font-size:17px;font-weight:700;margin-top:26px}
 .name-desc{font-size:14px;color:var(--ink-soft);margin-top:12px;line-height:1.95}
 
 /* ── 物語 ── */
 .story-grid{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
 .story-grid img{border-radius:20px}
 .pull{font-family:var(--maru);font-size:clamp(19px,2.9vw,25px);line-height:2;
-  font-weight:600;letter-spacing:.05em;padding:34px 0 34px 30px;
+  font-weight:700;letter-spacing:.05em;padding:34px 0 34px 30px;
   border-left:4px solid var(--leaf);margin:46px 0}
 
 /* ── 全幅バナー ── */
@@ -250,7 +250,7 @@ footer .made{margin-top:34px;font-family:var(--gothic);font-size:11px;letter-spa
   <div class="hero-inner">
     <p class="eyebrow"><span class="ey-series"><ruby>美ぎ肌<rt>かぎぱだ</rt></ruby>シリーズ</span><span class="ey-div"></span>先島諸島の恵み　宮古島からお届け</p>
     <h1>しまのめぐみ</h1>
-    <p class="lead">黒島のタマヌオイルと、石垣の月桃から。<br>島を守るために植えられた植物が、肌にふれるものになりました。</p>
+    <p class="lead">黒島のタマヌオイルと、石垣の月桃から。<br>島を守るために植えられた植物が、肌を守るものになりました。</p>
   </div>
 </header>
 
@@ -330,7 +330,7 @@ footer .made{margin-top:34px;font-family:var(--gothic);font-size:11px;letter-spa
     <p>流れ出した赤土は海を濁らせ、サンゴの上に降り積もってしまう。</p>
     <p>それを止めるために、<strong>畑のふちに月桃を植える「グリーンベルト」</strong>という取り組みがあります。月桃の根が土をつかまえ、赤土の流出を防ぐ。</p>
     <p>この製品の「ゲットウ葉油」は、そのグリーンベルトに参加している農家さんから買い取ったものです。</p>
-    <p class="big" style="margin-top:2em">海を守るために植えられた植物が、そのまま、肌にふれるものになりました。</p>
+    <p class="big" style="margin-top:2em">海を守るために植えられた植物が、そのまま、肌を守るものになりました。</p>
   </div>
 </section>
 
@@ -362,7 +362,7 @@ footer .made{margin-top:34px;font-family:var(--gothic);font-size:11px;letter-spa
         <h3 class="prod-name">あみぬふふぁ</h3>
         <p class="prod-sub">美ぎ肌 しまのめぐみ まるちばぁむ ／ 10g</p>
         <p class="price">2,420円<small>税込</small></p>
-        <p style="font-size:14.5px;margin-top:20px">植物油とミツロウでできた、シンプルなバームです。適量を手に取り、お肌になじませてください。うるおいを与え、なめらかにととのえます。</p>
+        <p style="font-size:14.5px;margin-top:20px">植物油とミツロウでできた、シンプルなバームです。適量を手に取り、お肌になじませてください。うるおいを与え、なめらかに整えます。</p>
         <ul class="uses">
           <li>くちびるに</li>
           <li>手指の乾きが気になるところに</li>
